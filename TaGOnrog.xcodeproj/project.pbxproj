@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6DD0C26D20E09A5F4447B8D /* Pods_TaGOnrog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D544A1D210100BE1E5B065F /* Pods_TaGOnrog.framework */; };
+		DD402CFA2B6AE74200A2B78C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CF92B6AE74200A2B78C /* Colors.swift */; };
+		DD402CFC2B6AE74900A2B78C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CFB2B6AE74900A2B78C /* Images.swift */; };
+		DD402CFE2B6AE75200A2B78C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CFD2B6AE75200A2B78C /* Fonts.swift */; };
+		DD402D002B6AE76500A2B78C /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CFF2B6AE76500A2B78C /* LocalizedString.swift */; };
+		DD402D022B6AE7A000A2B78C /* ViewsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402D012B6AE7A000A2B78C /* ViewsFactory.swift */; };
 		DD7AC88E2B6ACDC800C8E3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7AC88D2B6ACDC800C8E3DF /* AppDelegate.swift */; };
-		DD7AC8902B6ACDC800C8E3DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7AC88F2B6ACDC800C8E3DF /* SceneDelegate.swift */; };
 		DD7AC8922B6ACDC800C8E3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7AC8912B6ACDC800C8E3DF /* ViewController.swift */; };
-		DD7AC8952B6ACDC800C8E3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7AC8932B6ACDC800C8E3DF /* Main.storyboard */; };
 		DD7AC8972B6ACDC900C8E3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7AC8962B6ACDC900C8E3DF /* Assets.xcassets */; };
 		DD7AC89A2B6ACDC900C8E3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7AC8982B6ACDC900C8E3DF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37D4990508C00452980A6519 /* Pods-TaGOnrog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaGOnrog.debug.xcconfig"; path = "Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog.debug.xcconfig"; sourceTree = "<group>"; };
+		8D544A1D210100BE1E5B065F /* Pods_TaGOnrog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaGOnrog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D0577B15E17206CE1F0920 /* Pods-TaGOnrog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaGOnrog.release.xcconfig"; path = "Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog.release.xcconfig"; sourceTree = "<group>"; };
+		DD402CF92B6AE74200A2B78C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD402CFB2B6AE74900A2B78C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		DD402CFD2B6AE75200A2B78C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		DD402CFF2B6AE76500A2B78C /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		DD402D012B6AE7A000A2B78C /* ViewsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsFactory.swift; sourceTree = "<group>"; };
+		DD402D032B6AE88600A2B78C /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../../../../../Desktop/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		DD402D042B6AE88600A2B78C /* SFProText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.otf"; path = "../../../../../../Desktop/SFProText-Medium.otf"; sourceTree = "<group>"; };
+		DD402D052B6AE88600A2B78C /* SFProText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.otf"; path = "../../../../../../Desktop/SFProText-Bold.otf"; sourceTree = "<group>"; };
+		DD402D062B6AE88600A2B78C /* SFProText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.otf"; path = "../../../../../../Desktop/SFProText-Semibold.otf"; sourceTree = "<group>"; };
 		DD7AC88A2B6ACDC800C8E3DF /* TaGOnrog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaGOnrog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7AC88D2B6ACDC800C8E3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD7AC88F2B6ACDC800C8E3DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD7AC8912B6ACDC800C8E3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD7AC8942B6ACDC800C8E3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD7AC8962B6ACDC900C8E3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7AC8992B6ACDC900C8E3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7AC89B2B6ACDC900C8E3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DD0C26D20E09A5F4447B8D /* Pods_TaGOnrog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207FE98E59731AF0A93F82AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D4990508C00452980A6519 /* Pods-TaGOnrog.debug.xcconfig */,
+				93D0577B15E17206CE1F0920 /* Pods-TaGOnrog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD7AC8812B6ACDC800C8E3DF = {
 			isa = PBXGroup;
 			children = (
 				DD7AC88C2B6ACDC800C8E3DF /* TaGOnrog */,
 				DD7AC88B2B6ACDC800C8E3DF /* Products */,
+				207FE98E59731AF0A93F82AB /* Pods */,
+				E6C522342ED18D2EFCD49082 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,86 @@
 		DD7AC88C2B6ACDC800C8E3DF /* TaGOnrog */ = {
 			isa = PBXGroup;
 			children = (
+				DD7AC8A12B6ACDF600C8E3DF /* Common */,
+				DD7AC8A32B6ACE1C00C8E3DF /* CustomViews */,
+				DD7AC8A42B6ACE2800C8E3DF /* Moduls */,
+				DD7AC8A52B6ACE3700C8E3DF /* Resources */,
 				DD7AC88D2B6ACDC800C8E3DF /* AppDelegate.swift */,
-				DD7AC88F2B6ACDC800C8E3DF /* SceneDelegate.swift */,
 				DD7AC8912B6ACDC800C8E3DF /* ViewController.swift */,
-				DD7AC8932B6ACDC800C8E3DF /* Main.storyboard */,
-				DD7AC8962B6ACDC900C8E3DF /* Assets.xcassets */,
-				DD7AC8982B6ACDC900C8E3DF /* LaunchScreen.storyboard */,
 				DD7AC89B2B6ACDC900C8E3DF /* Info.plist */,
 			);
 			path = TaGOnrog;
+			sourceTree = "<group>";
+		};
+		DD7AC8A12B6ACDF600C8E3DF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DD7AC8A22B6ACE0D00C8E3DF /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DD7AC8A22B6ACE0D00C8E3DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD402CF92B6AE74200A2B78C /* Colors.swift */,
+				DD402CFB2B6AE74900A2B78C /* Images.swift */,
+				DD402CFD2B6AE75200A2B78C /* Fonts.swift */,
+				DD402CFF2B6AE76500A2B78C /* LocalizedString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD7AC8A32B6ACE1C00C8E3DF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD402D012B6AE7A000A2B78C /* ViewsFactory.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DD7AC8A42B6ACE2800C8E3DF /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		DD7AC8A52B6ACE3700C8E3DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD7AC8A72B6ACE8700C8E3DF /* Fonts */,
+				DD7AC8A62B6ACE7B00C8E3DF /* Localization */,
+				DD7AC8962B6ACDC900C8E3DF /* Assets.xcassets */,
+				DD7AC8982B6ACDC900C8E3DF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD7AC8A62B6ACE7B00C8E3DF /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DD7AC8A72B6ACE8700C8E3DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD402D052B6AE88600A2B78C /* SFProText-Bold.otf */,
+				DD402D042B6AE88600A2B78C /* SFProText-Medium.otf */,
+				DD402D032B6AE88600A2B78C /* SFProText-Regular.ttf */,
+				DD402D062B6AE88600A2B78C /* SFProText-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E6C522342ED18D2EFCD49082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D544A1D210100BE1E5B065F /* Pods_TaGOnrog.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7AC89E2B6ACDC900C8E3DF /* Build configuration list for PBXNativeTarget "TaGOnrog" */;
 			buildPhases = (
+				01682692D4C85FDE7EF7064E /* [CP] Check Pods Manifest.lock */,
 				DD7AC8862B6ACDC800C8E3DF /* Sources */,
 				DD7AC8872B6ACDC800C8E3DF /* Frameworks */,
 				DD7AC8882B6ACDC800C8E3DF /* Resources */,
+				62C60FE7E60F519326452D26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +226,52 @@
 			files = (
 				DD7AC89A2B6ACDC900C8E3DF /* LaunchScreen.storyboard in Resources */,
 				DD7AC8972B6ACDC900C8E3DF /* Assets.xcassets in Resources */,
-				DD7AC8952B6ACDC800C8E3DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01682692D4C85FDE7EF7064E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaGOnrog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C60FE7E60F519326452D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD7AC8862B6ACDC800C8E3DF /* Sources */ = {
@@ -139,22 +279,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7AC8922B6ACDC800C8E3DF /* ViewController.swift in Sources */,
+				DD402CFE2B6AE75200A2B78C /* Fonts.swift in Sources */,
+				DD402D002B6AE76500A2B78C /* LocalizedString.swift in Sources */,
+				DD402CFC2B6AE74900A2B78C /* Images.swift in Sources */,
+				DD402CFA2B6AE74200A2B78C /* Colors.swift in Sources */,
+				DD402D022B6AE7A000A2B78C /* ViewsFactory.swift in Sources */,
 				DD7AC88E2B6ACDC800C8E3DF /* AppDelegate.swift in Sources */,
-				DD7AC8902B6ACDC800C8E3DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD7AC8932B6ACDC800C8E3DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD7AC8942B6ACDC800C8E3DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD7AC8982B6ACDC900C8E3DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +339,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -218,6 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -266,7 +403,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -275,6 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -287,19 +425,20 @@
 		};
 		DD7AC89F2B6ACDC900C8E3DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D4990508C00452980A6519 /* Pods-TaGOnrog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 39LGYY2D5D;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaGOnrog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +446,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BananasSolution.TaGOnrog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,19 +455,20 @@
 		};
 		DD7AC8A02B6ACDC900C8E3DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D0577B15E17206CE1F0920 /* Pods-TaGOnrog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 39LGYY2D5D;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaGOnrog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +476,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BananasSolution.TaGOnrog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

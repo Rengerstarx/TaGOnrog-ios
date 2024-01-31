@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.8.1)
+  - AMPopTip (4.12.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
+  - TinyConstraints (4.0.2)
+  - Toast-Swift (5.1.0)
+
+DEPENDENCIES:
+  - AMPopTip (= 4.12.0)
+  - Moya/Combine (= 15.0.0)
+  - SDWebImage (= 5.18.10)
+  - TinyConstraints (= 4.0.2)
+  - Toast-Swift (= 5.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AMPopTip
+    - Moya
+    - SDWebImage
+    - TinyConstraints
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AMPopTip: cf89d8690aa6e59ddc86bf46c0ccabb3e7d148a1
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  Toast-Swift: dd369e68ee529f542c65bd0d0c6c50cd743cf6f2
+
+PODFILE CHECKSUM: a18f2d7cea9cc10fb7e9dddf4eaefe3d0169c96f
+
+COCOAPODS: 1.14.3
