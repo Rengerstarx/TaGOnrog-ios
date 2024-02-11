@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C6DD0C26D20E09A5F4447B8D /* Pods_TaGOnrog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D544A1D210100BE1E5B065F /* Pods_TaGOnrog.framework */; };
+		DD23118F2B7012A9001980B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD23118E2B7012A9001980B4 /* GoogleService-Info.plist */; };
 		DD402CFA2B6AE74200A2B78C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CF92B6AE74200A2B78C /* Colors.swift */; };
 		DD402CFC2B6AE74900A2B78C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CFB2B6AE74900A2B78C /* Images.swift */; };
 		DD402CFE2B6AE75200A2B78C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD402CFD2B6AE75200A2B78C /* Fonts.swift */; };
@@ -23,6 +24,7 @@
 		37D4990508C00452980A6519 /* Pods-TaGOnrog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaGOnrog.debug.xcconfig"; path = "Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog.debug.xcconfig"; sourceTree = "<group>"; };
 		8D544A1D210100BE1E5B065F /* Pods_TaGOnrog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaGOnrog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D0577B15E17206CE1F0920 /* Pods-TaGOnrog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaGOnrog.release.xcconfig"; path = "Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog.release.xcconfig"; sourceTree = "<group>"; };
+		DD23118E2B7012A9001980B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DD402CF92B6AE74200A2B78C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DD402CFB2B6AE74900A2B78C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		DD402CFD2B6AE75200A2B78C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DD7AC88D2B6ACDC800C8E3DF /* AppDelegate.swift */,
 				DD7AC8912B6ACDC800C8E3DF /* ViewController.swift */,
 				DD7AC89B2B6ACDC900C8E3DF /* Info.plist */,
+				DD23118E2B7012A9001980B4 /* GoogleService-Info.plist */,
 			);
 			path = TaGOnrog;
 			sourceTree = "<group>";
@@ -175,7 +178,8 @@
 				DD7AC8862B6ACDC800C8E3DF /* Sources */,
 				DD7AC8872B6ACDC800C8E3DF /* Frameworks */,
 				DD7AC8882B6ACDC800C8E3DF /* Resources */,
-				62C60FE7E60F519326452D26 /* [CP] Embed Pods Frameworks */,
+				D3283E0EB8B2E7FDB9A05D37 /* [CP] Embed Pods Frameworks */,
+				DD2311902B70144E001980B4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -226,6 +230,7 @@
 			files = (
 				DD7AC89A2B6ACDC900C8E3DF /* LaunchScreen.storyboard in Resources */,
 				DD7AC8972B6ACDC900C8E3DF /* Assets.xcassets in Resources */,
+				DD23118F2B7012A9001980B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +259,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62C60FE7E60F519326452D26 /* [CP] Embed Pods Frameworks */ = {
+		D3283E0EB8B2E7FDB9A05D37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,6 +275,25 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaGOnrog/Pods-TaGOnrog-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		DD2311902B70144E001980B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -336,7 +360,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -360,6 +384,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -417,6 +442,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -432,6 +458,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaGOnrog/Info.plist;
@@ -462,6 +489,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaGOnrog/Info.plist;
